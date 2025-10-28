@@ -1,3 +1,6 @@
+/**
+ * simple, sane extensions to javascript
+ */ 
 Array.prototype.sum = function(){
     return this.reduce((partialSum, a) => partialSum + a, 0);
 }
